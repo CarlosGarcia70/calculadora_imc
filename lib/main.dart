@@ -9,7 +9,7 @@ void main() {
       title: 'Calculadora de IMC com GetX',
       initialRoute: '/',
       theme: ThemeData(
-          primarySwatch: Colors.blue
+          primarySwatch: Colors.green
       ),
       getPages: [
         GetPage(name: '/', page: () => HomePage(), binding: HomeBinding())
